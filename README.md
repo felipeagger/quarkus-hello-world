@@ -1,5 +1,10 @@
 # java-quarkus-helloworld project
 
+To deploy to openshift, run:
+```
+./mvnw clean package -Dquarkus.kubernetes.deploy=true
+```
+
 Default port is 8085.
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
